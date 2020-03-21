@@ -1,10 +1,20 @@
 [
 	{
-		"repository":  "android_kernel_motorola_msm8952",
+		"remote": "github",
+    		"repository":  "techy55/kernel_motorola_msm8952",
 		"target_path": "kernel/motorola/msm8952"
+		"branch": "pie"
 	},
 	{
-		"repository":  "android_vendor_motorola_athene",
+		"remote": "github",
+		"repository":  "techy55/vendor_motorola_athene",
 		"target_path": "vendor/motorola/athene"
+		"branch": "arrow-9.x"
+	},
+	{
+		"remote": "github",
+		"repository":  "techy55/device_motorola_athene",
+		"target_path": "device/motorola/athene"
+		"branch": "arrow-9.x"
 	}
 ]
